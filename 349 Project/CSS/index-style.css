@@ -49,9 +49,9 @@ nav ul li a:hover {
 }
 
 .profile-pic {
-    width: 600px;           /* Increase width of the image */
-    max-width: 600px;       /* Ensure it doesn't exceed this width */
-    height: 600px;          /* Set height to match the width */
+    width: 400px;           /* Increase width of the image */
+    max-width: 400px;       /* Ensure it doesn't exceed this width */
+    height: 4 00px;          /* Set height to match the width */
     border-radius: 50%;     /* Keep the circular shape */
     border: 5px solid #ffffff;
     display: block;
@@ -72,10 +72,10 @@ nav ul li a:hover {
 
 .about-me {
     position: absolute;    /* Uses absolute positioning */
-    bottom: 250px;          /* Adjusted to move it higher */
+    bottom: 120px;          /* Adjusted to move it higher */
     right: 50px;           /* Distance from the right */
     text-align: right;     /* Align text to the right */
-    font-size: 2rem;       /* Larger font size */
+    font-size: 1.5rem;       /* Larger font size */
     line-height: 1.2;      /* Adjust line height */
 }
 

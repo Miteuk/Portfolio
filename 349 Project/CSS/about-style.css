@@ -3,9 +3,11 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-image: url('/images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
-
 /* Styling for navigation */
 nav ul {
     list-style: none;
@@ -32,7 +34,7 @@ nav ul li a:hover {
 
 /* About section styles */
 .about {
-    background-color: white;
+    background-color: transparent;
     padding: 40px;
     margin: 40px auto;
     max-width: 900px;
