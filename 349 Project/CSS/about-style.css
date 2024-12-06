@@ -34,7 +34,7 @@ nav ul li a:hover {
 
 /* About section styles */
 .about {
-    background-color: transparent;
+    background-color: #ffffff;
     padding: 40px;
     margin: 40px auto;
     max-width: 900px;
@@ -80,7 +80,7 @@ nav ul li a:hover {
     text-decoration: none;
     border-radius: 5px;
     font-size: 1.2rem;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .download-btn:hover {

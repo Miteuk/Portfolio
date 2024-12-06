@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('/images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Styling for navigation */
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    background-color: #333;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Styling for the heading */
+h1 {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 3rem;
+    color: rgb(0, 0, 0);
+}
+
+/* Styling for contact form */
+#contact-form {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Ensure content stays within the bubble */
+}
+
+#contact-form input,
+#contact-form textarea {
+    width: calc(100% - 30px); /* Adjust width to fit within padding */
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+#contact-form button {
+    width: 100%;
+    padding: 15px;
+    background-color: #161616;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+#contact-form button:hover {
+    background-color: #555;
+}
+
+/* Styling for contact links */
+.contact-links {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 400px; /* Reduce max-width */
+    background-color: transparent;
+}
+
+.contact-links h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.contact-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-links ul li {
+    margin: 10px 0;
+}
+
+.contact-links ul li a {
+    color: #0004ff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.contact-links ul li a:hover {
+    text-decoration: underline;
+}

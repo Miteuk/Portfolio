@@ -31,3 +31,43 @@ nav ul li a {
 nav ul li a:hover {
     text-decoration: underline;
 }
+
+/* Skills section styling */
+.skills {
+    text-align: center;
+    padding: 40px;
+}
+
+/* White bubble container */
+.bubble {
+    background-color: white;
+    padding: 20px;
+    margin: 40px auto;
+    max-width: 900px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.skills h2 {
+    font-size: 5rem;
+    margin-bottom: 20px;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills ul li {
+    display: flex;
+    justify-content: center; /* Center the skills */
+    align-items: center;
+    font-size: 1.8rem; /* Increase font size */
+    margin: 15px 0; /* Increase margin */
+}
+
+.skills ul li img {
+    width: 100px; /* Increase the width of the skill images */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 15px; /* Increase space between image and text */
+}

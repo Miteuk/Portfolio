@@ -1,11 +1,10 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="css/contract-style.css">
+    <link rel="stylesheet" href="css/contact-style.css">
 </head>
 <body>
     <nav>
@@ -18,13 +17,23 @@
         </ul>
     </nav>
 
+    <h1>Contact Me</h1>
+
     <form id="contact-form" onsubmit="return validateForm()">
         <input type="text" id="name" placeholder="Your Name" required>
         <input type="email" id="email" placeholder="Your Email" required>
         <textarea id="message" placeholder="Your Message" required></textarea>
         <button type="submit">Send Message</button>
     </form>
-    <script src="/js/form.js"></script>
 
+    <div class="contact-links">
+        <h2>Connect with me</h2>
+        <ul>
+            <li><a href="https://github.com/Miteuk" target="_blank">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/tim-kue-46990a166/" target="_blank">LinkedIn</a></li>
+        </ul>
+    </div>
+
+    <script src="/js/form.js"></script>
 </body>
 </html>

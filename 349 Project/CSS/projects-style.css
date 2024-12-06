@@ -31,3 +31,48 @@ nav ul li a {
 nav ul li a:hover {
     text-decoration: underline;
 }
+
+/* Projects section styling */
+.projects {
+    text-align: center;
+    padding: 40px;
+}
+
+.projects h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+/* White bubble container */
+.bubble {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 900px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.project p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.project a {
+    font-size: 1rem;
+    color: #3010e7;
+    text-decoration: none;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
